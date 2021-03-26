@@ -82,7 +82,7 @@ import GithubAwait from "./GithubAwait.svelte";
 
 <Navbar {showForm} />
 <main class="content">
-  <!-- {#if isFormOpen}
+  {#if isFormOpen}
   <Modal>
       <ExpenseForm name={setName} amount={setAmount} {isEditing} {hideForm} />
   </Modal>  
@@ -95,8 +95,8 @@ import GithubAwait from "./GithubAwait.svelte";
     type="button"
     class="btn btn-primary btn-block"
     on:click={clearExpenses}>clear expenses</button
-  > -->
+  >
 
   <!-- <Github /> -->
-  <GithubAwait />
+  <!-- <GithubAwait /> -->
 </main>
